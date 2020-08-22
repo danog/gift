@@ -1,4 +1,4 @@
-# Gift [![](https://img.shields.io/npm/v/@danog/gift.svg) ![](https://img.shields.io/npm/dt/@danog/gift.svg)](https://www.npmjs.com/package/@danog/gift)
+# Gift
 
 A simple Node.js wrapper for the Git CLI, with fixed parsing of GitHub commit signatures. The API is based on
 [Grit](https://github.com/mojombo/grit).
