@@ -1,6 +1,6 @@
 {
   "name": "@danog/gift",
-  "version": "0.10.2",
+  "version": "0.10.3",
   "description": "a Git wrapper library",
   "keywords": [
     "git",
@@ -11,10 +11,7 @@
   "bugs": {
     "url": "https://github.com/notatestuser/gift/issues"
   },
-  "author": {
-    "name": "sentientwaffle",
-    "url": "http://sentientwaffle.github.com/"
-  },
+  "author": "sentientwaffle (http://sentientwaffle.github.com/)",
   "license": "MIT",
   "main": "./lib/index",
   "scripts": {
@@ -23,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/notatestuser/gift.git"
+    "url": "git+https://github.com/notatestuser/gift.git"
   },
   "dependencies": {
     "flex-exec": "^1.0.0",
@@ -38,5 +35,9 @@
   },
   "engines": {
     "node": ">=4"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
