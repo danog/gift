@@ -101,9 +101,9 @@ module.exports = class Commit
         gpgsig.push lines.shift().replace /^gpgsig /, ''
         while !/^ -----END PGP SIGNATURE-----$/.test lines[0]
           gpgsig.push lines.shift()
-        if lines[0] != ''
-          gpgsig.push lines.shift()
         gpgsig.push lines.shift()
+        if lines[0] == ' '
+          gpgsig.push lines.shift()
 
       # if converted from mercurial gpgsig may be present with non-valid gpg lines
       # e.g. "kilnhgcopies646973742F2E6874616363657373 6170702F2E6874616363657373"
