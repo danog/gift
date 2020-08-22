@@ -1,5 +1,5 @@
 {
-  "name": "gift",
+  "name": "@danog/gift",
   "version": "0.10.2",
   "description": "a Git wrapper library",
   "keywords": [

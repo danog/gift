@@ -1,6 +1,6 @@
 # Gift [![](https://img.shields.io/npm/v/gift.svg) ![](https://img.shields.io/npm/dt/gift.svg)](https://www.npmjs.com/package/gift)
 
-A simple Node.js wrapper for the Git CLI. The API is based on
+A simple Node.js wrapper for the Git CLI, with fixed parsing of GitHub commit signatures. The API is based on
 [Grit](https://github.com/mojombo/grit).
 
 Tested in all stable versions of node.
