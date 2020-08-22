@@ -1,11 +1,11 @@
-# Gift [![](https://img.shields.io/npm/v/gift.svg) ![](https://img.shields.io/npm/dt/gift.svg)](https://www.npmjs.com/package/gift)
+# Gift [![](https://img.shields.io/npm/v/@danog/gift.svg) ![](https://img.shields.io/npm/dt/@danog/gift.svg)](https://www.npmjs.com/package/@danog/gift)
 
 A simple Node.js wrapper for the Git CLI, with fixed parsing of GitHub commit signatures. The API is based on
 [Grit](https://github.com/mojombo/grit).
 
 Tested in all stable versions of node.
 
-[![Build Status](https://secure.travis-ci.org/notatestuser/gift.svg?branch=master)](http://travis-ci.org/notatestuser/gift) [![Dependency Status](https://david-dm.org/notatestuser/gift.svg)](https://david-dm.org/notatestuser/gift) [![devDependency Status](https://david-dm.org/notatestuser/gift/dev-status.svg)](https://david-dm.org/notatestuser/gift#info=devDependencies)
+![Node.js CI](https://github.com/danog/gift/workflows/Node.js%20CI/badge.svg)
 
 # Table of Contents
 
