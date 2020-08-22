@@ -1,7 +1,7 @@
 {
   "name": "@danog/gift",
   "version": "0.10.3",
-  "description": "a Git wrapper library",
+  "description": "a Git wrapper library, with fixed parsing of GitHub commit signatures",
   "keywords": [
     "git",
     "cli",
